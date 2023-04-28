@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio2</title>
+</head>
+<body>
+    <script>
+        var lista = ["maria", "luizao", "caue", "palmeiras", "flamengo", "vasco", "ivy", "eva", "iguinho"]
+        var maiscinco = []
+
+        for(var indice  = 0; indice < lista.length; indice++){
+            var porcinco = lista[indice].length
+
+            if(porcinco > 5){
+                maiscinco.push(lista[indice])
+            }
+        }
+        console.log(maiscinco)
+    </script>
+</body>
+</html>

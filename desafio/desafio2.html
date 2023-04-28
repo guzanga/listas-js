@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio2</title>
+</head>
+<body>
+    <script>
+        var lista = [25, 57, 60, 40, 54, 209, 7, 890, 39]
+        var divfive = []
+
+        for(var indice  = 0; indice < lista.length; indice++){
+            var porcinco = lista[indice] % 5
+
+            if(porcinco == 0){
+                divfive.push(lista[indice])
+            }
+        }
+        console.log(divfive)
+    </script>
+</body>
+</html>

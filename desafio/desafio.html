@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio</title>
+</head>
+<body>
+    <script>
+        var lista = [86, 2, 11];
+        var todosPares = true;
+        for (var indice = 0; indice < lista.length; indice++) {
+            var pordois = lista[indice] % 2;
+            if (pordois != 0) {
+                todosPares = false;
+                break;
+            }
+        }
+        if (todosPares) {
+            document.write("todos os numeros são pares");
+        }else {
+            document.write("todos os numeros não são pares");
+        }
+    </script>
+</body>
+</html>
